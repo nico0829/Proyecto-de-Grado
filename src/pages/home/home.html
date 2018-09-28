@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-navbar color="primary">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Inicio</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content overflow-scroll = "true" padding>
+    
+  <h4 style="text-align:center">LA UNIVERSIDAD</h4>
+    <ion-list>
+        <div class="card">
+            <ion-item>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/7mgRDosSDwc" frameborder="0" width="100%" height="100%" allowfullscreen></iframe>
+                </div>
+            </ion-item>
+        </div>
+    </ion-list>
+    <ion-list>
+        <ion-item (click)="InfoInstitucional()">
+            <ion-avatar item-left>
+                <div style="text-align: center;">
+                    <ion-icon style="font-size: 40px; text-align: center;" name="ios-browsers-outline"></ion-icon>
+                </div>
+            </ion-avatar>
+            <h3>Información Institucional</h3>
+        </ion-item>
+        <ion-item (click)="ValoresInstitu()">
+            <ion-avatar item-left>
+                    <div style="text-align: center;">
+                        <ion-icon style="font-size: 40px; text-align: center;" name="ios-browsers-outline"></ion-icon>
+                    </div>
+            </ion-avatar>
+            <h3>Valores Institucionales</h3>
+        </ion-item>
+        <ion-item (click)="ReglamentoEstu()">
+            <ion-avatar item-left>
+                    <div style="text-align: center;">
+                        <ion-icon style="font-size: 40px; text-align: center;" name="ios-browsers-outline"></ion-icon>
+                    </div>
+            </ion-avatar>
+            <h3>Reglamento Estudiantil</h3>
+        </ion-item>
+    </ion-list>
+
+    <br>
+    <h5>Test de valoración:</h5>
+    <ion-list>
+        <ion-item>
+            <ion-avatar item-left>
+                <div style="text-align: center;">
+                    <ion-icon style="font-size: 40px; text-align: center;" name="ios-clipboard-outline"></ion-icon>
+                </div>
+            </ion-avatar>
+            <a href="#" class="button button-dark">Información Institucional</a>
+        </ion-item>
+        <ion-item>
+            <ion-avatar item-left>
+                    <div style="text-align: center;">
+                        <ion-icon style="font-size: 40px; text-align: center;" name="ios-clipboard-outline"></ion-icon>
+                    </div>
+            </ion-avatar>
+            <a href="#" class="button button-dark">Valores Institucionales</a>
+        </ion-item>
+        <ion-item>
+            <ion-avatar item-left>
+                    <div style="text-align: center;">
+                        <ion-icon style="font-size: 40px; text-align: center;" name="ios-clipboard-outline"></ion-icon>
+                    </div>
+            </ion-avatar>
+            <a href="#" class="button button-dark">Reglamento Estudiantil</a>
+        </ion-item>
+    </ion-list>
+</ion-content>
