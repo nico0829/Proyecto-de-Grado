@@ -14,6 +14,9 @@ import { InicioPage } from '../pages/inicio/inicio';
 import { MasinfoPage } from '../pages/masinfo/masinfo';
 import { PagprincipalPage } from '../pages/pagprincipal/pagprincipal';
 import { LetrahimnoPage } from '../pages/letrahimno/letrahimno';
+import { RelachumanasPage } from '../pages/relachumanas/relachumanas';
+import { ImportanciarelachumanasPage } from '../pages/importanciarelachumanas/importanciarelachumanas';
+import { SerhumanentesocialPage } from '../pages/serhumanentesocial/serhumanentesocial';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -31,7 +34,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InicioPage,
     MasinfoPage,
     PagprincipalPage,
-    LetrahimnoPage
+    LetrahimnoPage,
+    RelachumanasPage,
+    ImportanciarelachumanasPage,
+    SerhumanentesocialPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +56,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     InicioPage,
     MasinfoPage,
     PagprincipalPage,
-    LetrahimnoPage
+    LetrahimnoPage,
+    RelachumanasPage,
+    ImportanciarelachumanasPage,
+    SerhumanentesocialPage
   ],
   providers: [
     StatusBar,
