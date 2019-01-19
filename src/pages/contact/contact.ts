@@ -3,6 +3,12 @@ import { NavController } from 'ionic-angular';
 import { RelachumanasPage } from '../relachumanas/relachumanas';
 import { ImportanciarelachumanasPage } from '../importanciarelachumanas/importanciarelachumanas';
 import { SerhumanentesocialPage } from '../serhumanentesocial/serhumanentesocial';
+import { RelahumanandrelapublicPage } from '../relahumanandrelapublic/relahumanandrelapublic';
+import { CortesiaybuenosmodalesPage } from '../cortesiaybuenosmodales/cortesiaybuenosmodales';
+import { ClasificacionrelacihumPage } from '../clasificacionrelacihum/clasificacionrelacihum';
+import { OrdenjerarquiconecesidadesPage } from '../ordenjerarquiconecesidades/ordenjerarquiconecesidades';
+import { CausaproblhumanosPage } from '../causaproblhumanos/causaproblhumanos';
+import { EstadodeanimoPage } from '../estadodeanimo/estadodeanimo';
 
 @Component({
   selector: 'page-contact',
@@ -24,6 +30,30 @@ export class ContactPage {
 
   SerHumanoEnteSocial(){
     this.navCtrl.push(SerhumanentesocialPage);
+  }
+
+  RelacionHumanasypublicas(){
+    this.navCtrl.push(RelahumanandrelapublicPage);
+  }
+
+  Cortesiaybuenosmodales(){
+    this.navCtrl.push(CortesiaybuenosmodalesPage);
+  }
+
+  ClasificaRelaHuman(){
+    this.navCtrl.push(ClasificacionrelacihumPage);
+  }
+
+  OrdenJerarNecesidades(){
+    this.navCtrl.push(OrdenjerarquiconecesidadesPage);
+  }
+
+  CausaProblemRelaHuman(){
+    this.navCtrl.push(CausaproblhumanosPage);
+  }
+
+  Estadodeanimo(){
+    this.navCtrl.push(EstadodeanimoPage);
   }
 
 }

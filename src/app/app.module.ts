@@ -17,6 +17,13 @@ import { LetrahimnoPage } from '../pages/letrahimno/letrahimno';
 import { RelachumanasPage } from '../pages/relachumanas/relachumanas';
 import { ImportanciarelachumanasPage } from '../pages/importanciarelachumanas/importanciarelachumanas';
 import { SerhumanentesocialPage } from '../pages/serhumanentesocial/serhumanentesocial';
+import { RelahumanandrelapublicPage } from '../pages/relahumanandrelapublic/relahumanandrelapublic';
+import { CortesiaybuenosmodalesPage } from '../pages/cortesiaybuenosmodales/cortesiaybuenosmodales';
+import { ClasificacionrelacihumPage } from '../pages/clasificacionrelacihum/clasificacionrelacihum';
+import { OrdenjerarquiconecesidadesPage } from '../pages/ordenjerarquiconecesidades/ordenjerarquiconecesidades';
+import { CausaproblhumanosPage } from '../pages/causaproblhumanos/causaproblhumanos';
+import { EstadodeanimoPage } from '../pages/estadodeanimo/estadodeanimo';
+import { EticaymoralPage } from '../pages/eticaymoral/eticaymoral';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -37,7 +44,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LetrahimnoPage,
     RelachumanasPage,
     ImportanciarelachumanasPage,
-    SerhumanentesocialPage
+    SerhumanentesocialPage,
+    RelahumanandrelapublicPage,
+    CortesiaybuenosmodalesPage,
+    ClasificacionrelacihumPage,
+    OrdenjerarquiconecesidadesPage,
+    CausaproblhumanosPage,
+    EstadodeanimoPage,
+    EticaymoralPage
   ],
   imports: [
     BrowserModule,
@@ -59,7 +73,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LetrahimnoPage,
     RelachumanasPage,
     ImportanciarelachumanasPage,
-    SerhumanentesocialPage
+    SerhumanentesocialPage,
+    RelahumanandrelapublicPage,
+    CortesiaybuenosmodalesPage,
+    ClasificacionrelacihumPage,
+    OrdenjerarquiconecesidadesPage,
+    CausaproblhumanosPage,
+    EstadodeanimoPage,
+    EticaymoralPage
   ],
   providers: [
     StatusBar,

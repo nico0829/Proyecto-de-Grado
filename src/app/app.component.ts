@@ -21,7 +21,7 @@ export class MyApp {
     this.rootPage = TabsPage;
     this.pages = [
       { titulo: 'Página Principal', component: PagprincipalPage, icon: 'home' },
-      { titulo: 'Inicio', component: InicioPage, icon: 'person' },
+      { titulo: 'Libreta', component: InicioPage, icon: 'person' },
       { titulo: 'Módulos', component: TabsPage, icon: 'mail' },
       { titulo: 'Más Info', component: MasinfoPage, icon: 'information-circle' }
     ];
