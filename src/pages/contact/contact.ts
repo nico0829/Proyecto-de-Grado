@@ -9,6 +9,8 @@ import { ClasificacionrelacihumPage } from '../clasificacionrelacihum/clasificac
 import { OrdenjerarquiconecesidadesPage } from '../ordenjerarquiconecesidades/ordenjerarquiconecesidades';
 import { CausaproblhumanosPage } from '../causaproblhumanos/causaproblhumanos';
 import { EstadodeanimoPage } from '../estadodeanimo/estadodeanimo';
+import { MotivoasociacionhumanaPage } from '../motivoasociacionhumana/motivoasociacionhumana';
+import { EstadodeanimoyrelacionhumPage } from '../estadodeanimoyrelacionhum/estadodeanimoyrelacionhum';
 
 @Component({
   selector: 'page-contact',
@@ -54,6 +56,14 @@ export class ContactPage {
 
   Estadodeanimo(){
     this.navCtrl.push(EstadodeanimoPage);
+  }
+
+  MotivoAsociacionHumana(){
+    this.navCtrl.push(MotivoasociacionhumanaPage);
+  }
+
+  EstadodeAnimoRelacionHum(){
+    this.navCtrl.push(EstadodeanimoyrelacionhumPage);
   }
 
 }

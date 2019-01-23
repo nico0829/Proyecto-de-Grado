@@ -31,6 +31,8 @@ import { EnbuscadelafuentebienmalPage } from '../pages/enbuscadelafuentebienmal/
 import { LaconcienciamoralPage } from '../pages/laconcienciamoral/laconcienciamoral';
 import { EticayciudadaniaPage } from '../pages/eticayciudadania/eticayciudadania';
 import { DiezsituadedilemaseticosPage } from '../pages/diezsituadedilemaseticos/diezsituadedilemaseticos';
+import { MotivoasociacionhumanaPage } from '../pages/motivoasociacionhumana/motivoasociacionhumana';
+import { EstadodeanimoyrelacionhumPage } from '../pages/estadodeanimoyrelacionhum/estadodeanimoyrelacionhum';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -65,7 +67,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EnbuscadelafuentebienmalPage,
     LaconcienciamoralPage,
     EticayciudadaniaPage,
-    DiezsituadedilemaseticosPage
+    DiezsituadedilemaseticosPage,
+    MotivoasociacionhumanaPage,
+    EstadodeanimoyrelacionhumPage
   ],
   imports: [
     BrowserModule,
@@ -101,7 +105,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EnbuscadelafuentebienmalPage,
     LaconcienciamoralPage,
     EticayciudadaniaPage,
-    DiezsituadedilemaseticosPage
+    DiezsituadedilemaseticosPage,
+    MotivoasociacionhumanaPage,
+    EstadodeanimoyrelacionhumPage
   ],
   providers: [
     StatusBar,
