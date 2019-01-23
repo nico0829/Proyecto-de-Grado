@@ -24,6 +24,13 @@ import { OrdenjerarquiconecesidadesPage } from '../pages/ordenjerarquiconecesida
 import { CausaproblhumanosPage } from '../pages/causaproblhumanos/causaproblhumanos';
 import { EstadodeanimoPage } from '../pages/estadodeanimo/estadodeanimo';
 import { EticaymoralPage } from '../pages/eticaymoral/eticaymoral';
+import { DilemasyAproxPage } from '../pages/dilemasy-aprox/dilemasy-aprox';
+import { ElhombreserlibrePage } from '../pages/elhombreserlibre/elhombreserlibre';
+import { ResponsabilidadPage } from '../pages/responsabilidad/responsabilidad';
+import { EnbuscadelafuentebienmalPage } from '../pages/enbuscadelafuentebienmal/enbuscadelafuentebienmal';
+import { LaconcienciamoralPage } from '../pages/laconcienciamoral/laconcienciamoral';
+import { EticayciudadaniaPage } from '../pages/eticayciudadania/eticayciudadania';
+import { DiezsituadedilemaseticosPage } from '../pages/diezsituadedilemaseticos/diezsituadedilemaseticos';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -51,7 +58,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OrdenjerarquiconecesidadesPage,
     CausaproblhumanosPage,
     EstadodeanimoPage,
-    EticaymoralPage
+    EticaymoralPage,
+    DilemasyAproxPage,
+    ElhombreserlibrePage,
+    ResponsabilidadPage,
+    EnbuscadelafuentebienmalPage,
+    LaconcienciamoralPage,
+    EticayciudadaniaPage,
+    DiezsituadedilemaseticosPage
   ],
   imports: [
     BrowserModule,
@@ -80,7 +94,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OrdenjerarquiconecesidadesPage,
     CausaproblhumanosPage,
     EstadodeanimoPage,
-    EticaymoralPage
+    EticaymoralPage,
+    DilemasyAproxPage,
+    ElhombreserlibrePage,
+    ResponsabilidadPage,
+    EnbuscadelafuentebienmalPage,
+    LaconcienciamoralPage,
+    EticayciudadaniaPage,
+    DiezsituadedilemaseticosPage
   ],
   providers: [
     StatusBar,
