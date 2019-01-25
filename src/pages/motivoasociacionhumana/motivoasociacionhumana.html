@@ -9,7 +9,32 @@
   <ion-navbar color="secondary">
     <ion-title>Motivos de Asociación Humana</ion-title>
   </ion-navbar>
+<script>
 
+$('#help-select').on('change', function (e) {
+
+var url;
+
+switch (this.value) {
+
+    case "article":
+        url = "https://cordova.apache.org/docs/en/latest/"
+                    + "reference/cordova-plugin-inappbrowser/index.html";
+        break;
+
+    case "video":
+        url = "https://youtu.be/F-GlVrTaeH0";
+        break;
+
+    case "search":
+        url = "https://www.google.com/#q=inAppBrowser+plugin";
+        break;
+}
+
+showHelp(url);
+
+});
+</script>
 </ion-header>
 
 <ion-content padding>
@@ -78,5 +103,14 @@
     Se tiene para realizar esta actividad un tiempo de 15 minutos  en el cual debemos asociar las dos columnas 
     <br>
   </p>
-  <a href="https://www.educaplay.com/learning-resources/2418267-motivos_de_asociacion_humana.html" target="_blank" class="button button-dark">Motivos de Asociación Humana</a>
+  
+  <select id="help-select">
+      <option value="default">Need help?</option>
+      <option value="article">Show me a helpful article</option>
+      <option value="video">Show me a helpful video</option>
+      <option value="search">Search for other topics</option>
+  </select>
+
+  <a href="#" onclick="var ref = window.open('http://cnn.com', '_blank', 'location=yes,toolbar=yes');">CNN Link</a>
+  
 </ion-content>
