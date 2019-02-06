@@ -12,6 +12,7 @@ import { EstadodeanimoPage } from '../estadodeanimo/estadodeanimo';
 import { MotivoasociacionhumanaPage } from '../motivoasociacionhumana/motivoasociacionhumana';
 import { EstadodeanimoyrelacionhumPage } from '../estadodeanimoyrelacionhum/estadodeanimoyrelacionhum';
 
+
 @Component({
   selector: 'page-contact',
   templateUrl: 'contact.html'

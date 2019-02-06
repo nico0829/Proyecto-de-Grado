@@ -33,6 +33,7 @@ import { EticayciudadaniaPage } from '../pages/eticayciudadania/eticayciudadania
 import { DiezsituadedilemaseticosPage } from '../pages/diezsituadedilemaseticos/diezsituadedilemaseticos';
 import { MotivoasociacionhumanaPage } from '../pages/motivoasociacionhumana/motivoasociacionhumana';
 import { EstadodeanimoyrelacionhumPage } from '../pages/estadodeanimoyrelacionhum/estadodeanimoyrelacionhum';
+import { liderazgoPage } from '../pages/liderazgo/liderazgo';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -69,7 +70,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EticayciudadaniaPage,
     DiezsituadedilemaseticosPage,
     MotivoasociacionhumanaPage,
-    EstadodeanimoyrelacionhumPage
+    EstadodeanimoyrelacionhumPage,
+    liderazgoPage
   ],
   imports: [
     BrowserModule,
@@ -107,7 +109,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EticayciudadaniaPage,
     DiezsituadedilemaseticosPage,
     MotivoasociacionhumanaPage,
-    EstadodeanimoyrelacionhumPage
+    EstadodeanimoyrelacionhumPage,
+    liderazgoPage
   ],
   providers: [
     StatusBar,
