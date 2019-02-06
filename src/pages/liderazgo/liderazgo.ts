@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { RelachumanasPage } from '../relachumanas/relachumanas';
+import { FilosofiadelliderazgoPage } from '../filosofiadelliderazgo/filosofiadelliderazgo';
+import { QueesliderazgoPage } from '../queesliderazgo/queesliderazgo';
+import { LidernaceosehacePage } from '../lidernaceosehace/lidernaceosehace';
+import { ConsistelabordeliderPage } from '../consistelabordelider/consistelabordelider';
 
 
 
@@ -14,8 +17,20 @@ export class liderazgoPage {
 
   }
 
-  RelacionHumanas(){
-    this.navCtrl.push(RelachumanasPage);
+  filosofialiderazgo(){
+    this.navCtrl.push(FilosofiadelliderazgoPage);
+  }
+
+  queesliderazgo(){
+    this.navCtrl.push(QueesliderazgoPage);
+  }
+
+  lidernaceosehace(){
+    this.navCtrl.push(LidernaceosehacePage);
+  }
+
+  consisteserlider(){
+    this.navCtrl.push(ConsistelabordeliderPage);
   }
 
 }

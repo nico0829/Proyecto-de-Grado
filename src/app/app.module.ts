@@ -34,6 +34,10 @@ import { DiezsituadedilemaseticosPage } from '../pages/diezsituadedilemaseticos/
 import { MotivoasociacionhumanaPage } from '../pages/motivoasociacionhumana/motivoasociacionhumana';
 import { EstadodeanimoyrelacionhumPage } from '../pages/estadodeanimoyrelacionhum/estadodeanimoyrelacionhum';
 import { liderazgoPage } from '../pages/liderazgo/liderazgo';
+import { FilosofiadelliderazgoPage } from '../pages/filosofiadelliderazgo/filosofiadelliderazgo';
+import { QueesliderazgoPage } from '../pages/queesliderazgo/queesliderazgo';
+import { LidernaceosehacePage } from '../pages/lidernaceosehace/lidernaceosehace';
+import { ConsistelabordeliderPage } from '../pages/consistelabordelider/consistelabordelider';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -71,7 +75,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DiezsituadedilemaseticosPage,
     MotivoasociacionhumanaPage,
     EstadodeanimoyrelacionhumPage,
-    liderazgoPage
+    liderazgoPage,
+    FilosofiadelliderazgoPage,
+    QueesliderazgoPage,
+    LidernaceosehacePage,
+    ConsistelabordeliderPage
   ],
   imports: [
     BrowserModule,
@@ -110,7 +118,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DiezsituadedilemaseticosPage,
     MotivoasociacionhumanaPage,
     EstadodeanimoyrelacionhumPage,
-    liderazgoPage
+    liderazgoPage,
+    FilosofiadelliderazgoPage,
+    QueesliderazgoPage,
+    LidernaceosehacePage,
+    ConsistelabordeliderPage
   ],
   providers: [
     StatusBar,
