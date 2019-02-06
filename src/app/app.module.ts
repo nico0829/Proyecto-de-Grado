@@ -38,6 +38,9 @@ import { FilosofiadelliderazgoPage } from '../pages/filosofiadelliderazgo/filoso
 import { QueesliderazgoPage } from '../pages/queesliderazgo/queesliderazgo';
 import { LidernaceosehacePage } from '../pages/lidernaceosehace/lidernaceosehace';
 import { ConsistelabordeliderPage } from '../pages/consistelabordelider/consistelabordelider';
+import { TipodeliderazgoPage } from '../pages/tipodeliderazgo/tipodeliderazgo';
+import { LidercarisimoPage } from '../pages/lidercarisimo/lidercarisimo';
+import { RiesgosacaerPage } from '../pages/riesgosacaer/riesgosacaer';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -79,7 +82,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FilosofiadelliderazgoPage,
     QueesliderazgoPage,
     LidernaceosehacePage,
-    ConsistelabordeliderPage
+    ConsistelabordeliderPage,
+    TipodeliderazgoPage,
+    LidercarisimoPage,
+    RiesgosacaerPage
   ],
   imports: [
     BrowserModule,
@@ -122,7 +128,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FilosofiadelliderazgoPage,
     QueesliderazgoPage,
     LidernaceosehacePage,
-    ConsistelabordeliderPage
+    ConsistelabordeliderPage,
+    TipodeliderazgoPage,
+    LidercarisimoPage,
+    RiesgosacaerPage
   ],
   providers: [
     StatusBar,

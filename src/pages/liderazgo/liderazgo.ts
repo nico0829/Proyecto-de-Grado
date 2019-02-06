@@ -4,7 +4,9 @@ import { FilosofiadelliderazgoPage } from '../filosofiadelliderazgo/filosofiadel
 import { QueesliderazgoPage } from '../queesliderazgo/queesliderazgo';
 import { LidernaceosehacePage } from '../lidernaceosehace/lidernaceosehace';
 import { ConsistelabordeliderPage } from '../consistelabordelider/consistelabordelider';
-
+import { TipodeliderazgoPage } from '../tipodeliderazgo/tipodeliderazgo';
+import { LidercarisimoPage } from '../lidercarisimo/lidercarisimo';
+import { RiesgosacaerPage } from '../riesgosacaer/riesgosacaer';
 
 
 @Component({
@@ -33,4 +35,15 @@ export class liderazgoPage {
     this.navCtrl.push(ConsistelabordeliderPage);
   }
 
+  tiposdeliderazgo(){
+    this.navCtrl.push(TipodeliderazgoPage);
+  }
+
+  lidercarisimo(){
+    this.navCtrl.push(LidercarisimoPage);
+  }
+
+  riesgosacaer(){
+    this.navCtrl.push(RiesgosacaerPage);
+  }
 }
