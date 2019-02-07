@@ -7,6 +7,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { PagprincipalPage } from '../pages/pagprincipal/pagprincipal';
 import { MasinfoPage } from '../pages/masinfo/masinfo';
 import { InicioPage } from '../pages/inicio/inicio';
+import { CameraqrPage } from '../pages/cameraqr/cameraqr';
 
 @Component({
   templateUrl: 'app.html'
@@ -18,10 +19,10 @@ export class MyApp {
   
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
 
-    this.rootPage = TabsPage;
+    this.rootPage = PagprincipalPage;
     this.pages = [
       { titulo: 'Página Principal', component: PagprincipalPage, icon: 'home' },
-      { titulo: 'Lector QR', component: InicioPage, icon: 'camera' },
+      { titulo: 'Lector QR', component: CameraqrPage, icon: 'camera' },
       { titulo: 'Módulos', component: TabsPage, icon: 'filing' },
       { titulo: 'Más Info', component: MasinfoPage, icon: 'information-circle' }
     ];

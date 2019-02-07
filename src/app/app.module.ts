@@ -45,6 +45,7 @@ import { BasesparaserunliderPage } from '../pages/basesparaserunlider/basesparas
 import { TestdeliderazgoPage } from '../pages/testdeliderazgo/testdeliderazgo';
 import { PoniendoenpracticaliderazgoPage } from '../pages/poniendoenpracticaliderazgo/poniendoenpracticaliderazgo';
 import { CaracteristicasdeliderPage } from '../pages/caracteristicasdelider/caracteristicasdelider';
+import { CameraqrPage } from '../pages/cameraqr/cameraqr';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -93,7 +94,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BasesparaserunliderPage,
     TestdeliderazgoPage,
     PoniendoenpracticaliderazgoPage,
-    CaracteristicasdeliderPage
+    CaracteristicasdeliderPage,
+    CameraqrPage
   ],
   imports: [
     BrowserModule,
@@ -143,7 +145,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BasesparaserunliderPage,
     TestdeliderazgoPage,
     PoniendoenpracticaliderazgoPage,
-    CaracteristicasdeliderPage
+    CaracteristicasdeliderPage,
+    CameraqrPage
   ],
   providers: [
     StatusBar,
