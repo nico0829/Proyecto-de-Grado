@@ -41,6 +41,10 @@ import { ConsistelabordeliderPage } from '../pages/consistelabordelider/consiste
 import { TipodeliderazgoPage } from '../pages/tipodeliderazgo/tipodeliderazgo';
 import { LidercarisimoPage } from '../pages/lidercarisimo/lidercarisimo';
 import { RiesgosacaerPage } from '../pages/riesgosacaer/riesgosacaer';
+import { BasesparaserunliderPage } from '../pages/basesparaserunlider/basesparaserunlider';
+import { TestdeliderazgoPage } from '../pages/testdeliderazgo/testdeliderazgo';
+import { PoniendoenpracticaliderazgoPage } from '../pages/poniendoenpracticaliderazgo/poniendoenpracticaliderazgo';
+import { CaracteristicasdeliderPage } from '../pages/caracteristicasdelider/caracteristicasdelider';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -85,7 +89,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ConsistelabordeliderPage,
     TipodeliderazgoPage,
     LidercarisimoPage,
-    RiesgosacaerPage
+    RiesgosacaerPage,
+    BasesparaserunliderPage,
+    TestdeliderazgoPage,
+    PoniendoenpracticaliderazgoPage,
+    CaracteristicasdeliderPage
   ],
   imports: [
     BrowserModule,
@@ -131,7 +139,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ConsistelabordeliderPage,
     TipodeliderazgoPage,
     LidercarisimoPage,
-    RiesgosacaerPage
+    RiesgosacaerPage,
+    BasesparaserunliderPage,
+    TestdeliderazgoPage,
+    PoniendoenpracticaliderazgoPage,
+    CaracteristicasdeliderPage
   ],
   providers: [
     StatusBar,

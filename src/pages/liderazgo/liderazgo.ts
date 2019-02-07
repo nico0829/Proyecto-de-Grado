@@ -7,6 +7,10 @@ import { ConsistelabordeliderPage } from '../consistelabordelider/consistelabord
 import { TipodeliderazgoPage } from '../tipodeliderazgo/tipodeliderazgo';
 import { LidercarisimoPage } from '../lidercarisimo/lidercarisimo';
 import { RiesgosacaerPage } from '../riesgosacaer/riesgosacaer';
+import { BasesparaserunliderPage } from '../basesparaserunlider/basesparaserunlider';
+import { TestdeliderazgoPage } from '../testdeliderazgo/testdeliderazgo';
+import { PoniendoenpracticaliderazgoPage } from '../poniendoenpracticaliderazgo/poniendoenpracticaliderazgo';
+import { CaracteristicasdeliderPage } from '../caracteristicasdelider/caracteristicasdelider';
 
 
 @Component({
@@ -45,5 +49,21 @@ export class liderazgoPage {
 
   riesgosacaer(){
     this.navCtrl.push(RiesgosacaerPage);
+  }
+
+  basesparaserunlider(){
+    this.navCtrl.push(BasesparaserunliderPage);
+  }
+
+  testdeliderazgo(){
+    this.navCtrl.push(TestdeliderazgoPage);
+  }
+
+  poniendoenpracticaliderazgo(){
+    this.navCtrl.push(PoniendoenpracticaliderazgoPage);
+  }
+
+  caracteristicasdeunlider(){
+    this.navCtrl.push(CaracteristicasdeliderPage);
   }
 }
